@@ -1,0 +1,13 @@
+@use 'sass:color';
+
+$primary-color: #4237ff;
+$error-color: #ff4d4f;
+$success-color: #2ccd9a;
+$font-stack: 'Inter', system-ui, sans-serif;
+
+$primary-color-light: color.adjust($primary-color, $lightness: 20%);
+$primary-color-dark: color.adjust($primary-color, $lightness: -10%);
+
+$grey-border: #d4d4d4;
+$input-text-color: #111827;
+$border-radius: 0.375rem;

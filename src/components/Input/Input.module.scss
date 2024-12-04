@@ -1,0 +1,34 @@
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+  .inputLabel {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: $primary-color-dark;
+    margin-bottom: 0.25rem;
+  }
+
+  .inputField {
+    padding: 0.5rem 0.75rem;
+    border-radius: $border-radius;
+    border: 1px solid $grey-border;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: $input-text-color; 
+    font-size: 0.875rem;
+    font-family: $font-stack;
+    transition: all 0.3s ease;
+    min-width: 320px;
+
+    ::placeholder {
+      color: $primary-color-light; 
+    }
+
+    &:focus {
+      outline: none;
+      border-color: $primary-color;
+    }
+  }
+}

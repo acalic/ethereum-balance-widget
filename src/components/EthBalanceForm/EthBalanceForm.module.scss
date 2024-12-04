@@ -1,0 +1,21 @@
+.formContainer {
+  @include centered;
+  flex-direction: column;
+  margin: 0 20px 20px;
+  width: 100%;
+}
+
+.buttonContainer {
+  margin-bottom: 1rem;
+}
+
+.loadingBarContainer {
+  min-height: 0.5rem;
+  max-width: 400px;
+  width: 100%;
+}
+
+.alertContainer {
+  margin-top: 1rem;
+  min-height: 4.5rem;
+}

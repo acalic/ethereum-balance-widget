@@ -1,0 +1,19 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-stack;
+  background-color: #f9f9f9;
+}
+
+.main-wrapper {
+  min-height: 100vh;
+  background-image: url(/assets/images/bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

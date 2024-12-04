@@ -1,0 +1,30 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.logo {
+  border-radius: 2rem;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    filter: drop-shadow(0 0 0.25em $primary-color-light);
+  }
+}
+
+.title {
+  color: #000;
+}
+
+.gradientMask {
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(126deg, #513bff 9%, #89ffca 97%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  align-items: flex-start;
+  display: block;
+}
