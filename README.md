@@ -49,6 +49,25 @@ Run the following commands based on your needs:
 
 - yarn preview: Serves the production build at http://localhost:4173/, so you can preview the final output locally.
 
+### 5. Running Tests
+
+The project uses Vitest for testing. To run tests, use the following command:
+
+```bash
+yarn test
+```
+
+This will execute the tests defined in your project. Tests are run in a Node environment with Vitest, and you can see the results in the terminal.
+
+Running with Coverage:
+To run tests with code coverage, use the following command:
+
+```bash
+yarn test:coverage
+```
+
+This will generate a code coverage report for your project.
+
 ### Project Structure
 
 - src/: Contains the source code for the project, including components, styles, and assets.
@@ -57,8 +76,11 @@ Run the following commands based on your needs:
 - vite.config.js: The Vite configuration file, where build and plugin settings are configured.
 - .gitignore: A file that lists the files and directories that Git should ignore.
 - .env: Environment file for storing sensitive information like your Tatum API key.
+- test/: Contains test files for testing components and functionality.
 
 ### Technologies Used
 - Preact: A fast, 3kB alternative to React.
 - Vite: A next-generation, fast build tool.
+- Vitest: A modern testing framework, used for unit and integration tests.
 - Ethereum: The widget uses Ethereum APIs to check wallet balances.
+- Tatum API: Used to interact with Ethereum and other blockchain networks.

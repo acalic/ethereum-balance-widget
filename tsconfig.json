@@ -15,7 +15,7 @@
 			"react": ["./node_modules/preact/compat/"],
 			"react-dom": ["./node_modules/preact/compat/"]
 		},
-		"types": ["vite/client"],
+		"types": ["vite/client", "vitest/globals", "node", "preact"]
 	},
 	"include": ["node_modules/vite/client.d.ts", "**/*"]
 }

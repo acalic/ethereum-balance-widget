@@ -16,3 +16,7 @@ node_modules/
 # System files
 .DS_Store
 Thumbs.db
+
+# Ignore coverage output directory
+coverage/
+*.lcov-report/

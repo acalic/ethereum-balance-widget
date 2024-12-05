@@ -1,4 +1,5 @@
-import { useState } from "react";
+//import { useState } from "react";
+import { useState } from 'preact/compat';
 import { Network, TatumSDK, Ethereum } from "@tatumio/tatum";
 import Button from "../Button/Button";
 import Input from "../Input/Input";
